@@ -1,0 +1,4 @@
+.nav-head{
+    display: flex;
+    flex-direction: row;
+}

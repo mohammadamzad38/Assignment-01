@@ -149,23 +149,32 @@ color: grey;
 .container-parent{
     display: flex;
     justify-content: space-between;
-
-    
-
 }
-.html{
+/* .container-parent:first-child{
+    padding-right: 20px;
+} */
+.html .continer-item-inner{
     background: rgba(255, 76, 30, 0.05);
 }
-.css{
+.css .continer-item-inner{
     background: rgba(0, 76, 232, 0.05);
 }
-.js{
+.js .continer-item-inner{
     background: rgba(255, 223, 0, 0.05);
     
 }
-.continer-item{
-    padding: 40px;
-    border-radius: 16px;
+.continer-item:first-child {
+    padding-right: 20px;
+}
+.continer-item:last-child {
+    padding-left: 20px;
+}
+.continer-item {
     width: 33.33%;
     
+}
+
+.continer-item-inner {
+    border-radius: 20px;
+    padding: 40px;
 }

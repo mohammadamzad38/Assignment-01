@@ -134,3 +134,38 @@ color: grey;
     padding: 32px;
     margin-top: 48px;
 }
+
+
+/* Third section */
+
+.third-section{
+    margin: 150px;
+}
+.container-head{
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+.container-parent{
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+.html{
+    background: rgba(255, 76, 30, 0.05);
+}
+.css{
+    background: rgba(0, 76, 232, 0.05);
+}
+.js{
+    background: rgba(255, 223, 0, 0.05);
+    
+}
+.continer-item{
+    padding: 40px;
+    border-radius: 16px;
+    width: 33.33%;
+    
+}
